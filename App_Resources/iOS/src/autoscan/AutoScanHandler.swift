@@ -1,3 +1,4 @@
+/*
 import Foundation
 import UIKit
 
@@ -195,3 +196,4 @@ class AutoScanHandler : NSObject {
                  1_000_000 * AutoScanHandler.getPointHash(points[3].cgPointValue))
   }
 }
+*/

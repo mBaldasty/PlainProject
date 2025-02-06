@@ -7,8 +7,12 @@
 @implementation OpencvDocumentProcessDelegate
 
 - (instancetype)initWithCropView:(NSCropView*) view {
-  self.cropView = view;
-  return [self init];
+    NSLog(@"Object: %@", view);
+    self = [super init];
+    if (self) {
+        _cropView = view;
+    }
+    return self;
 }
 
 CGImageRef MatToCGImage(const cv::Mat& image) {

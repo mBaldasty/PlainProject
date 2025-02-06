@@ -1,3 +1,4 @@
+/*
 import ObjectiveC
 import Foundation
 
@@ -5,3 +6,4 @@ import Foundation
 protocol OnAutoScan {
   func onAutoScan(_ corners: String)
 }
+*/
